@@ -1,7 +1,8 @@
-button{
+.btnfun{
 
     border: none;
     padding: 10px 42px;
     border-radius: 10px;
     background-color: #FF4000;
+    color:white
 }

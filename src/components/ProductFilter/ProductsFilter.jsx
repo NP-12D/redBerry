@@ -26,7 +26,7 @@ export default function ProductsFilter({ number, onFilterChange }) {
   return (
     <>
       <div className={styles.filter_line}>
-        <h1>Products</h1>
+        <h1 className={styles.h1}>Products</h1>
         <div  className={styles.filter_line_div}>
           <div onClick={onButtonClick}>
             <p className={styles.res}>Showing 1–{number * 10} of 100 results</p>
@@ -136,7 +136,7 @@ export default function ProductsFilter({ number, onFilterChange }) {
             ></img>
           </div>
         )}
-        
+
       </div>
     </>
   );

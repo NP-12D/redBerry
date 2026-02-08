@@ -1,0 +1,36 @@
+main{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+
+main >div:first-child{
+    width: 49.375%;
+}
+main img{
+    width: 100%;
+    height: 1000px;
+    object-fit: cover;
+}
+main >div:last-child{
+    width: 50.625%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:48px;
+}
+h1{
+    font-size: 42px;
+}
+@media screen and (max-width:750px){
+    main{
+        flex-direction: column;
+        gap:20px;
+    }
+    main>div{
+        width: 100%;
+    }
+}
+

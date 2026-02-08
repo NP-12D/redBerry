@@ -1,0 +1,47 @@
+.pagination {
+   
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  margin: 20px 0;
+ 
+  margin: auto;
+  margin-top: 90px;
+  
+ margin-bottom: 216px;
+}
+
+.pagination button {
+  width: 32px;
+  height: 32px;
+  border: 1px solid #ccc;
+  background: transparent;
+  cursor: pointer;
+  color: #212b36;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+}
+.pagination button:first-child,
+.pagination button:last-child {
+  border: none;
+}
+
+.pagination button.active {
+  color: #ff4000;
+  border-color: #ff4000;
+}
+
+.pagination .ellipsis {
+  background-color: white;
+  display: flex;
+
+  justify-content: center;
+  width: 32px !important;
+  height: 32px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  border-radius: 4px;
+}

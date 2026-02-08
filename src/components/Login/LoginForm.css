@@ -1,0 +1,10 @@
+h1 {
+  font-family: Poppins;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 42px;
+
+  line-height: 100%;
+  color: #10151f;
+  margin-bottom: 48px;
+}
